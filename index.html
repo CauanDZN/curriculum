@@ -2,476 +2,661 @@
 <html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
-    <title>Currículo - Francisco Cauan Victor da Silva Gonçalves</title>
+    <title>
+      Currículo - Francisco Cauan Victor da Silva Gonçalves | Software Engineer
+    </title>
     <meta
       name="description"
-      content="Currículo de Francisco Cauan Victor da Silva Gonçalves - Desenvolvedor Backend em Fortaleza, CE, Brasil."
+      content="Currículo de Francisco Cauan Victor da Silva Gonçalves - Software Engineer / Desenvolvedor Full Stack em Fortaleza, Ceará, Brasil."
     />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+      /* Ajustes para garantir no máx. 2 páginas na impressão */
+      @media print {
+        @page {
+          margin: 1.5cm;
+        }
+
+        body {
+          background: #ffffff !important;
+        }
+
+        main {
+          box-shadow: none !important;
+          border: 0 !important;
+          margin: 0 !important;
+          padding: 0 !important;
+        }
+
+        h1 {
+          font-size: 1.4rem !important;
+        }
+
+        h2 {
+          font-size: 1rem !important;
+        }
+
+        h3 {
+          font-size: 0.9rem !important;
+        }
+
+        p,
+        li,
+        span {
+          font-size: 0.8rem !important;
+          line-height: 1.3 !important;
+        }
+
+        .mb-6 {
+          margin-bottom: 0.75rem !important;
+        }
+
+        .mb-4 {
+          margin-bottom: 0.5rem !important;
+        }
+
+        .py-4,
+        .py-6,
+        .py-8 {
+          padding-top: 0.5rem !important;
+          padding-bottom: 0.5rem !important;
+        }
+
+        .pt-4,
+        .pt-6 {
+          padding-top: 0.5rem !important;
+        }
+
+        .pb-4,
+        .pb-6 {
+          padding-bottom: 0.5rem !important;
+        }
+      }
+    </style>
   </head>
   <body class="bg-slate-100 text-slate-900 antialiased">
     <main
-      class="max-w-4xl mx-auto my-8 p-6 md:p-8 bg-white shadow-sm rounded-lg border border-slate-200 print:shadow-none print:border-0 print:m-0 print:p-4"
+      class="max-w-4xl mx-auto my-6 p-4 md:p-6 bg-white shadow-sm rounded-lg border border-slate-200 print:shadow-none print:border-0 print:m-0 print:p-0"
     >
-      <!-- Cabeçalho -->
-      <header class="border-b border-slate-200 pb-4 mb-6">
-        <h1 class="text-2xl md:text-3xl font-bold tracking-tight">
-          Francisco Cauan Victor da Silva Gonçalves
-        </h1>
-        <p
-          class="mt-1 text-sm md:text-base font-semibold text-emerald-700 uppercase tracking-wide"
-        >
-          Desenvolvedor Backend
-        </p>
-
+      <!-- Cabeçalho / Hero -->
+      <header class="mb-4">
+        <!-- Imagem de fundo / faixa -->
         <div
-          class="mt-3 flex flex-wrap gap-y-1 gap-x-6 text-xs md:text-sm text-slate-700"
+          class="relative overflow-hidden rounded-xl border border-slate-200 mb-3"
         >
-          <div>
-            <span class="font-semibold">Localização:</span>
-            Fortaleza – CE, Brasil
-          </div>
-          <div>
-            <span class="font-semibold">Telefone:</span>
-            (85) 98767-3952
-          </div>
-          <div class="w-full sm:w-auto">
-            <span class="font-semibold">E-mail:</span>
-            <a
-              href="mailto:cauanvictor0325@gmail.com"
-              class="underline decoration-slate-300 hover:decoration-emerald-500"
-              >cauanvictor0325@gmail.com</a
-            >
+          <div
+            class="absolute inset-0 bg-gradient-to-r from-sky-700 via-emerald-600 to-sky-500 opacity-80"
+          ></div>
+          <div
+            class="relative p-4 text-white flex flex-col md:flex-row md:items-center md:justify-between gap-3"
+          >
+            <div>
+              <h1 class="text-2xl font-bold tracking-tight">
+                Francisco Cauan Victor da Silva Gonçalves
+              </h1>
+              <p class="mt-1 text-sm font-semibold">
+                Software Engineer · Desenvolvedor Full Stack
+              </p>
+              <p class="mt-1 text-xs">
+                Ele / dele · Fortaleza, Ceará, Brasil
+              </p>
+              <p class="mt-1 text-xs">
+                Engaja Comunicação · Estácio · UniFanor Wyden
+              </p>
+            </div>
+            <div class="text-xs space-y-1 md:text-right">
+              <p>16.865 seguidores · + de 500 conexões</p>
+              <p class="font-semibold">
+                Interesse: Desenvolvimento de Software, Back-end, Full Stack,
+                Cloud, Dados, Educação em Tecnologia
+              </p>
+            </div>
           </div>
         </div>
 
-        <div
-          class="mt-1 flex flex-wrap gap-y-1 gap-x-6 text-xs md:text-sm text-slate-700"
-        >
-          <!-- Ajuste os links abaixo conforme sua realidade -->
-          <div>
-            <span class="font-semibold">GitHub:</span>
-            <span>https://github.com/CauanDZN</span>
+        <!-- Contato -->
+        <div class="border-b border-slate-200 pb-3">
+          <div
+            class="flex flex-wrap gap-y-1 gap-x-6 text-xs md:text-sm text-slate-700"
+          >
+            <div>
+              <span class="font-semibold">Localização:</span>
+              Fortaleza – CE, Brasil
+            </div>
+            <div>
+              <span class="font-semibold">Telefone:</span>
+              (85) 98767-3952
+            </div>
+            <div class="w-full sm:w-auto">
+              <span class="font-semibold">E-mail:</span>
+              <a
+                href="mailto:cauanvictor0325@gmail.com"
+                class="underline decoration-slate-300 hover:decoration-emerald-500"
+                >cauanvictor0325@gmail.com</a
+              >
+            </div>
           </div>
-          <div>
-            <span class="font-semibold">LinkedIn:</span>
-            <span>https://www.linkedin.com/in/francisco-cauan-victor</span>
+
+          <div
+            class="mt-1 flex flex-wrap gap-y-1 gap-x-6 text-xs md:text-sm text-slate-700"
+          >
+            <div class="w-full md:w-auto">
+              <span class="font-semibold">LinkedIn:</span>
+              <a
+                href="https://www.linkedin.com/in/francisco-cauan-victor"
+                class="break-all underline decoration-slate-300 hover:decoration-emerald-500"
+              >
+                linkedin.com/in/francisco-cauan-victor
+              </a>
+            </div>
+            <div class="w-full md:w-auto">
+              <span class="font-semibold">GitHub:</span>
+              <a
+                href="https://github.com/CauanDZN"
+                class="break-all underline decoration-slate-300 hover:decoration-emerald-500"
+              >
+                github.com/CauanDZN
+              </a>
+            </div>
+            <div class="w-full md:w-auto">
+              <span class="font-semibold">Lattes:</span>
+              <a
+                href="http://lattes.cnpq.br/5014362324801434"
+                class="break-all underline decoration-slate-300 hover:decoration-emerald-500"
+              >
+                lattes.cnpq.br/5014362324801434
+              </a>
+            </div>
           </div>
         </div>
       </header>
 
-      <!-- Resumo Profissional -->
-      <section id="resumo" class="mb-6">
+      <!-- Resumo Profissional / Sobre -->
+      <section id="resumo" class="mb-4">
         <h2
-          class="text-lg font-semibold tracking-tight text-slate-800 border-b border-slate-200 pb-1"
+          class="text-base md:text-lg font-semibold tracking-tight text-slate-800 border-b border-slate-200 pb-1"
         >
           Resumo Profissional
         </h2>
-        <p class="mt-2 text-sm md:text-base leading-relaxed text-slate-800">
-          Desenvolvedor backend em início de carreira com base sólida em
-          lógica de programação, redes de computadores e desenvolvimento web.
-          Experiência prática em construção de APIs REST, integração com bancos
-          de dados relacionais e não relacionais, autenticação e boas práticas
-          de organização de código. Participação em projetos como o site do
-          Congresso Nacional dos Corpos de Bombeiros (CONABOM 2025), sediado em
-          Fortaleza, e o portal de inscrição Geração Tech, com mais de 10.000
-          cadastrantes. Focado em qualidade de código, aprendizado contínuo e
-          entrega de soluções escaláveis.
+        <p class="mt-2 text-sm leading-relaxed text-slate-800">
+          Profissional brasileiro de 20 anos, natural de Fortaleza, atuando
+          como Software Engineer / Desenvolvedor Full Stack na Engaja
+          Comunicação. Experiência em desenvolvimento web (front-end e
+          back-end), automação, dados e infraestrutura em nuvem, atendendo
+          clientes do setor público e privado. Fui desenvolvedor na Digital
+          College Brasil, onde liderei o departamento de TI/Desenvolvimento e
+          atuei como professor em iniciativas parceiras. Formação técnica em
+          Redes de Computadores e graduação em andamento em Ciência da
+          Computação (Estácio) e Análise e Desenvolvimento de Sistemas
+          (UniFanor Wyden). Inglês avançado, atuação com Scrum/Kanban e foco em
+          soluções escaláveis, bem documentadas e orientadas a resultados.
         </p>
       </section>
 
-      <!-- Competências Técnicas -->
-      <section id="competencias-tecnicas" class="mb-6">
+      <!-- Principais Destaques / Palavras-chave para ATS -->
+      <section id="principais-destaques" class="mb-4">
         <h2
-          class="text-lg font-semibold tracking-tight text-slate-800 border-b border-slate-200 pb-1"
+          class="text-base md:text-lg font-semibold tracking-tight text-slate-800 border-b border-slate-200 pb-1"
         >
-          Competências Técnicas
+          Principais Destaques
         </h2>
 
-        <div class="mt-2 grid gap-3 md:grid-cols-2 text-sm text-slate-800">
+        <div
+          class="mt-2 grid gap-3 md:grid-cols-2 text-xs md:text-sm text-slate-800"
+        >
           <div>
-            <h3 class="font-semibold">Linguagens &amp; Back-end</h3>
+            <h3 class="font-semibold">Linguagens de Programação</h3>
             <ul class="mt-1 list-disc list-inside space-y-1">
-              <li>JavaScript (ES6+)</li>
-              <li>TypeScript</li>
-              <li>Node.js</li>
-              <li>PHP (básico/intermediário)</li>
+              <li>JavaScript, TypeScript</li>
+              <li>Java, PHP, Python, C#</li>
             </ul>
           </div>
 
           <div>
-            <h3 class="font-semibold">Frameworks &amp; Ferramentas</h3>
+            <h3 class="font-semibold">Desenvolvimento Web e Mobile</h3>
             <ul class="mt-1 list-disc list-inside space-y-1">
-              <li>Express.js / REST APIs</li>
-              <li>Arquitetura MVC básica</li>
-              <li>Integração com serviços externos via HTTP</li>
-              <li>Uso de Git e GitHub para controle de versão</li>
+              <li>Front-end: ReactJS, VueJS, NextJS, Tailwind CSS</li>
+              <li>Back-end: Node.js, NestJS, Spring Boot, Laravel</li>
+              <li>Mobile: React Native, Kotlin, Android Studio, Swift</li>
             </ul>
           </div>
 
           <div>
-            <h3 class="font-semibold">Bancos de Dados</h3>
+            <h3 class="font-semibold">Cloud, DevOps e Automação</h3>
             <ul class="mt-1 list-disc list-inside space-y-1">
-              <li>MySQL / MariaDB</li>
-              <li>PostgreSQL (noções)</li>
-              <li>Modelagem de dados relacional</li>
-              <li>Consultas SQL básicas e intermediárias</li>
+              <li>Docker, AWS, Google Cloud</li>
+              <li>GitHub Actions (CI/CD)</li>
+              <li>Selenium, Playwright, Puppeteer</li>
             </ul>
           </div>
 
           <div>
-            <h3 class="font-semibold">Outras Tecnologias</h3>
+            <h3 class="font-semibold">Design, Dados e Comunicação</h3>
             <ul class="mt-1 list-disc list-inside space-y-1">
-              <li>HTML5, CSS3</li>
-              <li>Tailwind CSS (maior foco em estrutura semântica)</li>
-              <li>Fundamentos de Redes de Computadores</li>
-              <li>Linux básico, hospedagem simples de aplicações web</li>
+              <li>Social Media, Design Gráfico, UX/UI</li>
+              <li>Looker Studio, Power BI, DAX</li>
+              <li>Apps Script, Dash, Plotly, Streamlit</li>
+              <li>Inglês avançado (EF English Live)</li>
             </ul>
           </div>
         </div>
       </section>
 
-      <!-- Projetos de Destaque (Back-end) -->
-      <section id="projetos" class="mb-6">
+      <!-- Serviços (resumido) -->
+      <section id="servicos" class="mb-4">
         <h2
-          class="text-lg font-semibold tracking-tight text-slate-800 border-b border-slate-200 pb-1"
+          class="text-base md:text-lg font-semibold tracking-tight text-slate-800 border-b border-slate-200 pb-1"
         >
-          Projetos de Destaque
+          Serviços e Atuação
+        </h2>
+        <p class="mt-2 text-sm text-slate-800">
+          Desenvolvimento web e mobile · Desenvolvimento back-end e front-end ·
+          Gestão de nuvem e infraestrutura · Gestão da informação e bancos de
+          dados · Desenvolvimento de SaaS e aplicativos na nuvem · Consultoria
+          de TI · Noções de cibersegurança aplicada a software · UX/UI ·
+          Liderança técnica e supervisão de equipes.
+        </p>
+      </section>
+
+      <!-- Projetos de Destaque / Cases -->
+      <section id="projetos" class="mb-4">
+        <h2
+          class="text-base md:text-lg font-semibold tracking-tight text-slate-800 border-b border-slate-200 pb-1"
+        >
+          Projetos e Cases em Destaque
         </h2>
 
         <!-- CONABOM 2025 -->
-        <article class="mt-3">
-          <h3 class="text-sm md:text-base font-semibold text-slate-900">
-            CONABOM 2025 – Site do Congresso Nacional do Corpo de Bombeiros
+        <article class="mt-2">
+          <h3 class="text-sm font-semibold text-slate-900">
+            CONABOM 2025 – Site oficial do congresso
           </h3>
-          <p class="text-xs md:text-sm text-slate-600">
-            Fortaleza – CE &middot; Projeto de desenvolvimento web
+          <p class="text-xs text-slate-600">
+            Cliente: CONABOM 2025 · Fortaleza, Ceará · Projeto de alta
+            visibilidade
           </p>
           <ul
-            class="mt-1 list-disc list-inside text-sm text-slate-800 space-y-1"
+            class="mt-1 list-disc list-inside text-xs md:text-sm text-slate-800 space-y-1"
           >
             <li>
-              Participação no desenvolvimento do site do congresso, com foco na
-              camada de back-end e integração com o front-end do evento.
+              Desenvolvimento do site oficial com foco em performance, SEO e
+              experiência do usuário.
             </li>
             <li>
-              Implementação de rotas e endpoints para exibição de programação,
-              palestrantes, notícias e informações institucionais.
+              +6.000 visitantes em 28 dias, 53% de tráfego orgânico, até 90% de
+              taxa de engajamento.
             </li>
             <li>
-              Estruturação de modelos de dados para conteúdos dinâmicos,
-              facilitando manutenção e atualização do portal pela equipe.
+              +14.000 impressões e 5,6 mil cliques no Google para
+              palavras-chave do evento.
             </li>
           </ul>
-          <p class="mt-1 text-xs md:text-sm text-slate-600">
-            Tecnologias: Node.js, Express, HTML5, CSS3, integração com banco de
-            dados relacional.
+          <p class="mt-1 text-xs text-slate-600">
+            Tecnologias: JavaScript, TypeScript, React, Next.js, Tailwind CSS,
+            SEO técnico, Google Analytics, Google Search Console.
           </p>
         </article>
 
         <!-- Geração Tech -->
-        <article class="mt-4">
-          <h3 class="text-sm md:text-base font-semibold text-slate-900">
-            Geração Tech – Portal de Inscrição
+        <article class="mt-3">
+          <h3 class="text-sm font-semibold text-slate-900">
+            Geração Tech – Portal de inscrições e aulas
           </h3>
-          <p class="text-xs md:text-sm text-slate-600">
-            Projeto de portal com mais de 10.000 cadastrantes
+          <p class="text-xs text-slate-600">
+            Projeto educacional de tecnologia · Digital College Brasil
           </p>
           <ul
-            class="mt-1 list-disc list-inside text-sm text-slate-800 space-y-1"
+            class="mt-1 list-disc list-inside text-xs md:text-sm text-slate-800 space-y-1"
           >
             <li>
-              Desenvolvimento da camada de back-end do portal de inscrição para
-              programas de formação em tecnologia.
+              Desenvolvimento de portal de inscrição e acompanhamento de
+              estudantes, com milhares de cadastrantes.
             </li>
             <li>
-              Criação de APIs para cadastro de usuários, login, recuperação de
-              senha e gerenciamento de inscrições.
+              Atuação como professor em aulas presenciais e online de
+              programação e desenvolvimento.
             </li>
             <li>
-              Organização de dados de candidatos em banco de dados, garantindo
-              integridade e disponibilidade das informações para análise.
-            </li>
-            <li>
-              Implementação de validações de dados e regras de negócio para
-              evitar duplicidade e inconsistências no processo de inscrição.
+              Integração do fluxo de inscrições com sistemas internos da
+              instituição.
             </li>
           </ul>
-          <p class="mt-1 text-xs md:text-sm text-slate-600">
-            Tecnologias: Node.js, Express, banco de dados relacional (SQL),
-            HTML5, CSS3.
-          </p>
         </article>
 
-        <!-- Outros Projetos -->
-        <article class="mt-4">
-          <h3 class="text-sm md:text-base font-semibold text-slate-900">
-            Outros projetos e APIs de estudo
+        <!-- Supervisão de Estagiários -->
+        <article class="mt-3">
+          <h3 class="text-sm font-semibold text-slate-900">
+            Supervisão de estagiários – Governo do Estado do Ceará
           </h3>
+          <p class="text-xs text-slate-600">
+            Supervisão de estagiários vinculados à Digital College Brasil
+          </p>
           <ul
-            class="mt-1 list-disc list-inside text-sm text-slate-800 space-y-1"
+            class="mt-1 list-disc list-inside text-xs md:text-sm text-slate-800 space-y-1"
           >
             <li>
-              Desenvolvimento de pequenas APIs REST para estudos, incluindo
-              cadastro de tarefas, produtos e usuários.
+              Supervisão de aplicação prática de conhecimentos em tecnologia e
+              boas práticas de desenvolvimento.
             </li>
             <li>
-              Integração com front-ends simples em HTML, CSS e JavaScript para
-              consumo das APIs.
-            </li>
-            <li>
-              Prática de versionamento de código com Git e GitHub, incluindo
-              branches, pull requests e documentação básica de projetos.
+              Criação de ambiente de aprendizado leve, produtivo e orientado a
+              resultados.
             </li>
           </ul>
         </article>
       </section>
 
       <!-- Experiência Profissional -->
-      <section id="experiencia-profissional" class="mb-6">
+      <section id="experiencia-profissional" class="mb-4">
         <h2
-          class="text-lg font-semibold tracking-tight text-slate-800 border-b border-slate-200 pb-1"
+          class="text-base md:text-lg font-semibold tracking-tight text-slate-800 border-b border-slate-200 pb-1"
         >
           Experiência Profissional
         </h2>
 
-        <!-- Estágio -->
+        <!-- Engaja Comunicação -->
+        <article class="mt-2">
+          <div
+            class="flex flex-col md:flex-row md:items-baseline md:justify-between gap-1"
+          >
+            <h3 class="text-sm font-semibold text-slate-900">
+              Assistente de Desenvolvimento de Sistemas · Engaja Comunicação
+            </h3>
+            <p class="text-xs text-slate-600">
+              Nov 2024 – Atual · Tempo integral · Híbrido
+            </p>
+          </div>
+          <p class="text-xs text-slate-600 italic">
+            Fortaleza, Ceará, Brasil · Contrato realocado da Digital College
+          </p>
+          <ul
+            class="mt-1 list-disc list-inside text-xs md:text-sm text-slate-800 space-y-1"
+          >
+            <li>
+              Líder do departamento de TI/Desenvolvimento (Digital College e
+              Engaja Comunicação) em metodologias ágeis (Scrum, Kanban).
+            </li>
+            <li>
+              Automação de emissão de notas fiscais com Python, Selenium,
+              NFE.io, Meu Dinheiro na Web.
+            </li>
+            <li>
+              Soluções personalizadas para Sponte, SZ Chat (Fortics),
+              Leadlovers, RD Station, Google Spaces, Moodle.
+            </li>
+            <li>
+              CI/CD com GitHub Actions e uso de Docker em ambientes escaláveis.
+            </li>
+            <li>
+              Dashboards e relatórios com Looker Studio, Apps Script, Power BI,
+              DAX, Python, Dash, Plotly, Streamlit.
+            </li>
+            <li>
+              Scripts para Active Directory, bots para Discord, Telegram,
+              Instagram, WhatsApp e manutenção de sites de clientes.
+            </li>
+          </ul>
+          <p class="mt-1 text-xs text-slate-600">
+            Ocupação: 3171-10 | Programador de Sistemas de Informação · Período:
+            a partir de 21/11/2024.
+          </p>
+        </article>
+
+        <!-- Digital College - Programador Júnior -->
         <article class="mt-3">
           <div
             class="flex flex-col md:flex-row md:items-baseline md:justify-between gap-1"
           >
-            <h3 class="text-sm md:text-base font-semibold text-slate-900">
-              Estagiário em Redes de Computadores
+            <h3 class="text-sm font-semibold text-slate-900">
+              Programador Júnior · Digital College Brasil
             </h3>
-            <p class="text-xs md:text-sm text-slate-600">
-              Ago 2023 &ndash; Dez 2023
+            <p class="text-xs text-slate-600">
+              Mai 2024 – Nov 2024 · Tempo integral · Presencial
             </p>
           </div>
-          <p class="text-xs md:text-sm text-slate-600 italic">
-            Estágio extracurricular do curso técnico em Redes de Computadores
+          <p class="text-xs text-slate-600 italic">
+            Fortaleza, Ceará, Brasil
           </p>
           <ul
-            class="mt-1 list-disc list-inside text-sm text-slate-800 space-y-1"
+            class="mt-1 list-disc list-inside text-xs md:text-sm text-slate-800 space-y-1"
           >
             <li>
-              Apoio à configuração de redes locais, cabeamento e organização de
-              infraestrutura básica.
+              Liderança de TI/Desenvolvimento, integrações com APIs Pagar.me e
+              Zoop (boletos e relatórios).
             </li>
             <li>
-              Suporte a usuários, ajudando na solução de problemas de conexão e
-              acesso a sistemas.
+              Manutenção de soluções para Sponte, SZ Chat, Leadlovers, RD
+              Station, Google Spaces e Moodle.
             </li>
             <li>
-              Contato com servidores, endereçamento IP e conceitos fundamentais
-              que complementam a atuação como desenvolvedor backend.
+              Automação de tarefas (Selenium, Playwright, Puppeteer) e CI/CD
+              com GitHub Actions, Docker.
+            </li>
+            <li>
+              Criação de relatórios e painéis em Power BI, Looker Studio e
+              ferramentas de dados.
+            </li>
+            <li>
+              Desenvolvimento de bots de comunicação e atuação como professor em
+              iniciativas parceiras.
             </li>
           </ul>
+          <p class="mt-1 text-xs text-slate-600">
+            Ocupação: 3171-10 | Programador de Sistemas de Informação · Período:
+            02/05/2024 – 19/11/2024.
+          </p>
         </article>
 
-        <!-- Wonder Burguer For -->
-        <article class="mt-4">
+        <!-- Estagiário de Suporte -->
+        <article class="mt-3">
           <div
             class="flex flex-col md:flex-row md:items-baseline md:justify-between gap-1"
           >
-            <h3 class="text-sm md:text-base font-semibold text-slate-900">
-              Social Media / Marketing Digital
+            <h3 class="text-sm font-semibold text-slate-900">
+              Estagiário de Suporte de Informática · Digital College Brasil
             </h3>
-            <p class="text-xs md:text-sm text-slate-600">
-              2019 &ndash; 2020
+            <p class="text-xs text-slate-600">
+              Jan 2024 – Abr 2024 · Estágio
             </p>
           </div>
-          <p class="text-xs md:text-sm text-slate-600 italic">
-            Wonder Burguer For
+          <p class="text-xs text-slate-600 italic">
+            Fortaleza, Ceará, Brasil
           </p>
           <ul
-            class="mt-1 list-disc list-inside text-sm text-slate-800 space-y-1"
+            class="mt-1 list-disc list-inside text-xs md:text-sm text-slate-800 space-y-1"
           >
             <li>
-              Criação de artes e conteúdos para redes sociais, fortalecendo a
-              presença digital da marca.
+              Suporte técnico ao cliente interno e desenvolvimento de scripts
+              para automatização de tarefas.
             </li>
             <li>
-              Planejamento de postagens e monitoramento de engajamento.
-            </li>
-            <li>
-              Desenvolvimento de habilidades de comunicação e visão de produto,
-              úteis para entender necessidades de usuários finais.
-            </li>
-          </ul>
-        </article>
-
-        <!-- Mariu's Burguer -->
-        <article class="mt-4">
-          <div
-            class="flex flex-col md:flex-row md:items-baseline md:justify-between gap-1"
-          >
-            <h3 class="text-sm md:text-base font-semibold text-slate-900">
-              Social Media / Marketing Digital
-            </h3>
-            <p class="text-xs md:text-sm text-slate-600">
-              2019 &ndash; 2020
-            </p>
-          </div>
-          <p class="text-xs md:text-sm text-slate-600 italic">
-            Mariu's Burguer
-          </p>
-          <ul
-            class="mt-1 list-disc list-inside text-sm text-slate-800 space-y-1"
-          >
-            <li>
-              Produção de peças gráficas e estratégias simples de marketing
-              digital para divulgação de produtos.
-            </li>
-            <li>
-              Trabalho em equipe e contato direto com demandas de pequenos
-              negócios.
+              Apoio à infraestrutura de TI e organização de redes e serviços.
             </li>
           </ul>
         </article>
       </section>
 
       <!-- Formação Acadêmica -->
-      <section id="formacao" class="mb-6">
+      <section id="formacao" class="mb-4">
         <h2
-          class="text-lg font-semibold tracking-tight text-slate-800 border-b border-slate-200 pb-1"
+          class="text-base md:text-lg font-semibold tracking-tight text-slate-800 border-b border-slate-200 pb-1"
         >
           Formação Acadêmica
         </h2>
 
-        <article class="mt-3">
+        <article class="mt-2">
           <div
             class="flex flex-col md:flex-row md:items-baseline md:justify-between gap-1"
           >
-            <h3 class="text-sm md:text-base font-semibold text-slate-900">
-              Ensino Médio Integrado ao Curso Técnico em Redes de Computadores
+            <h3 class="text-sm font-semibold text-slate-900">
+              Bacharelado em Ciência da Computação · Estácio
             </h3>
-            <p class="text-xs md:text-sm text-slate-600">
-              2021 &ndash; 2023
+            <p class="text-xs text-slate-600">
+              Jan 2026 – Dez 2027 (em andamento)
             </p>
           </div>
-          <p class="text-xs md:text-sm text-slate-600 italic">
+          <p class="text-xs text-slate-600 italic">
+            Fortaleza, Ceará · Graduação em Ciência da Computação
+          </p>
+        </article>
+
+        <article class="mt-2">
+          <div
+            class="flex flex-col md:flex-row md:items-baseline md:justify-between gap-1"
+          >
+            <h3 class="text-sm font-semibold text-slate-900">
+              Tecnólogo em Análise e Desenvolvimento de Sistemas · UniFanor
+              Wyden
+            </h3>
+            <p class="text-xs text-slate-600">
+              Jan 2024 – Jul 2026 (em andamento)
+            </p>
+          </div>
+          <p class="text-xs text-slate-600 italic">
+            Fortaleza, Ceará · Graduação tecnológica
+          </p>
+        </article>
+
+        <article class="mt-2">
+          <div
+            class="flex flex-col md:flex-row md:items-baseline md:justify-between gap-1"
+          >
+            <h3 class="text-sm font-semibold text-slate-900">
+              Ensino Médio Integrado ao Técnico em Redes de Computadores
+            </h3>
+            <p class="text-xs text-slate-600">
+              2021 – 2023 (concluído)
+            </p>
+          </div>
+          <p class="text-xs text-slate-600 italic">
             EEEP Leonel de Moura Brizola
           </p>
-          <ul
-            class="mt-1 list-disc list-inside text-sm text-slate-800 space-y-1"
-          >
-            <li>
-              Formação técnica em redes, suporte, infraestrutura e conceitos de
-              comunicação de dados.
-            </li>
-            <li>
-              Base teórica importante para entendimento de protocolos, serviços
-              e ambientes de hospedagem de aplicações web.
-            </li>
-          </ul>
         </article>
       </section>
 
-      <!-- Cursos, Certificações e Formação Complementar -->
-      <section id="cursos" class="mb-6">
+      <!-- Cursos, Certificações e Formação Complementar (condensado) -->
+      <section id="cursos" class="mb-4">
         <h2
-          class="text-lg font-semibold tracking-tight text-slate-800 border-b border-slate-200 pb-1"
+          class="text-base md:text-lg font-semibold tracking-tight text-slate-800 border-b border-slate-200 pb-1"
         >
-          Cursos e Formação Complementar
+          Cursos, Certificações e Formação Complementar
         </h2>
 
-        <article class="mt-3">
-          <h3 class="text-sm md:text-base font-semibold text-slate-900">
-            Curso em Vídeo
-          </h3>
-          <p class="text-xs md:text-sm text-slate-600">
-            2021 &ndash; atual
-          </p>
-          <ul
-            class="mt-1 list-disc list-inside text-sm text-slate-800 space-y-1"
-          >
-            <li>
-              Cursos de HTML, CSS, JavaScript, PHP, MySQL e outras tecnologias
-              para desenvolvimento web.
-            </li>
-            <li>
-              Prática constante com exercícios e projetos propostos em aula.
-            </li>
-          </ul>
-        </article>
+        <ul class="mt-2 list-disc list-inside text-xs md:text-sm text-slate-800 space-y-1">
+          <li>EF English Live – Inglês Avançado (certificação)</li>
+          <li>
+            Curso em Vídeo – HTML, CSS, JavaScript, PHP, MySQL e desenvolvimento
+            web (2021 – atual)
+          </li>
+          <li>
+            W3Schools – Estudos autodidatas em tecnologias web e back-end (2021
+            – atual)
+          </li>
+          <li>
+            Juventude Digital – Criação de sites com HTML, CSS, JavaScript,
+            XAMPP e Drupal (Nov 2021 – Dez 2021)
+          </li>
+        </ul>
+      </section>
 
-        <article class="mt-4">
-          <h3 class="text-sm md:text-base font-semibold text-slate-900">
-            W3Schools
-          </h3>
-          <p class="text-xs md:text-sm text-slate-600">
-            2021 &ndash; atual
-          </p>
-          <ul
-            class="mt-1 list-disc list-inside text-sm text-slate-800 space-y-1"
-          >
-            <li>
-              Estudos autodidatas de tecnologias web, incluindo HTML, CSS,
-              JavaScript e fundamentos de back-end.
-            </li>
-            <li>
-              Consulta frequente à documentação e exemplos práticos para
-              reforçar conceitos.
-            </li>
-          </ul>
-        </article>
+      <!-- Competências Técnicas Detalhadas (para ATS) -->
+      <section id="competencias-tecnicas" class="mb-4">
+        <h2
+          class="text-base md:text-lg font-semibold tracking-tight text-slate-800 border-b border-slate-200 pb-1"
+        >
+          Competências Técnicas Detalhadas
+        </h2>
 
-        <article class="mt-4">
-          <h3 class="text-sm md:text-base font-semibold text-slate-900">
-            Juventude Digital
-          </h3>
-          <p class="text-xs md:text-sm text-slate-600">
-            Nov 2021 &ndash; Dez 2021
-          </p>
-          <ul
-            class="mt-1 list-disc list-inside text-sm text-slate-800 space-y-1"
-          >
-            <li>
-              Curso de desenvolvimento básico de sites utilizando HTML, CSS e
-              JavaScript.
-            </li>
-            <li>
-              Curso de criação de sites com uso de XAMPP e Drupal, compreendendo
-              noções de back-end e CMS.
-            </li>
-          </ul>
-        </article>
+        <div class="mt-2 grid gap-3 md:grid-cols-2 text-xs md:text-sm">
+          <div>
+            <h3 class="font-semibold text-slate-900">Back-end</h3>
+            <ul class="mt-1 list-disc list-inside text-slate-800 space-y-1">
+              <li>Node.js, NestJS, Java (Spring Boot), PHP (Laravel)</li>
+              <li>APIs REST, autenticação, integração com serviços externos</li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="font-semibold text-slate-900">Front-end</h3>
+            <ul class="mt-1 list-disc list-inside text-slate-800 space-y-1">
+              <li>ReactJS, VueJS, NextJS</li>
+              <li>HTML5, CSS3, Tailwind CSS, UX/UI</li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="font-semibold text-slate-900">Mobile</h3>
+            <ul class="mt-1 list-disc list-inside text-slate-800 space-y-1">
+              <li>React Native</li>
+              <li>Kotlin, Android Studio, Swift (noções)</li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="font-semibold text-slate-900">Bancos de Dados</h3>
+            <ul class="mt-1 list-disc list-inside text-slate-800 space-y-1">
+              <li>MySQL, MariaDB, PostgreSQL</li>
+              <li>Modelagem de dados relacional, SQL</li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="font-semibold text-slate-900">Cloud e DevOps</h3>
+            <ul class="mt-1 list-disc list-inside text-slate-800 space-y-1">
+              <li>AWS, Google Cloud</li>
+              <li>Docker, Git, GitHub, GitHub Actions (CI/CD)</li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="font-semibold text-slate-900">
+              Dados, Automação e Ferramentas
+            </h3>
+            <ul class="mt-1 list-disc list-inside text-slate-800 space-y-1">
+              <li>Looker Studio, Power BI, DAX</li>
+              <li>Apps Script, Python, Dash, Plotly, Streamlit</li>
+              <li>Selenium, Playwright, Puppeteer</li>
+              <li>Active Directory, ferramentas de colaboração e CRM</li>
+            </ul>
+          </div>
+        </div>
       </section>
 
       <!-- Idiomas -->
-      <section id="idiomas" class="mb-6">
+      <section id="idiomas" class="mb-3">
         <h2
-          class="text-lg font-semibold tracking-tight text-slate-800 border-b border-slate-200 pb-1"
+          class="text-base md:text-lg font-semibold tracking-tight text-slate-800 border-b border-slate-200 pb-1"
         >
           Idiomas
         </h2>
 
-        <ul class="mt-2 list-disc list-inside text-sm text-slate-800 space-y-1">
+        <ul class="mt-2 list-disc list-inside text-xs md:text-sm text-slate-800 space-y-1">
           <li>Português: Nativo</li>
-          <li>Inglês: Intermediário/Avançado (leitura e escrita)</li>
+          <li>Inglês: Avançado (leitura, escrita e comunicação técnica)</li>
           <li>Espanhol: Intermediário</li>
         </ul>
       </section>
 
       <!-- Outras Competências -->
-      <section id="outras-competencias" class="mb-2">
+      <section id="outras-competencias" class="mb-1">
         <h2
-          class="text-lg font-semibold tracking-tight text-slate-800 border-b border-slate-200 pb-1"
+          class="text-base md:text-lg font-semibold tracking-tight text-slate-800 border-b border-slate-200 pb-1"
         >
           Outras Competências
         </h2>
 
-        <ul class="mt-2 list-disc list-inside text-sm text-slate-800 space-y-1">
-          <li>Proatividade e facilidade de aprendizagem</li>
-          <li>Organização e atenção a detalhes</li>
+        <ul class="mt-2 list-disc list-inside text-xs md:text-sm text-slate-800 space-y-1">
+          <li>Proatividade, aprendizado rápido e foco em resultados</li>
+          <li>Organização, atenção a detalhes e comunicação clara</li>
           <li>Edição básica de foto e vídeo</li>
           <li>
-            Conhecimento em pacote Office (Word, Excel, PowerPoint) para
-            documentação e apresentações
+            Pacote Office (Word, Excel, PowerPoint) para documentação e
+            apresentações
           </li>
-          <li>Trabalho em equipe e boa comunicação</li>
+          <li>Liderança técnica, trabalho em equipe e supervisão de estagiários</li>
         </ul>
       </section>
     </main>
