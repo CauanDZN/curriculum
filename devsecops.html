@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <title>
+      Francisco Cauan Victor da Silva Gonçalves - DevSecOps
+    </title>
+    <meta
+      name="description"
+      content="Currículo de Francisco Cauan Victor da Silva Gonçalves."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+      /* Ajustes para garantir no máx. 2 páginas na impressão */
+      @media print {
+        @page {
+          margin: 1.5cm;
+        }
+
+        body {
+          background: #ffffff !important;
+        }
+
+        main {
+          box-shadow: none !important;
+          border: 0 !important;
+          margin: 0 !important;
+          padding: 0 !important;
+        }
+
+        h1 {
+          font-size: 1.4rem !important;
+        }
+
+        h2 {
+          font-size: 1rem !important;
+        }
+
+        h3 {
+          font-size: 0.9rem !important;
+        }
+
+        p,
+        li,
+        span {
+          font-size: 0.8rem !important;
+          line-height: 1.3 !important;
+        }
+
+        .mb-6 {
+          margin-bottom: 0.75rem !important;
+        }
+
+        .mb-4 {
+          margin-bottom: 0.5rem !important;
+        }
+
+        .py-4,
+        .py-6,
+        .py-8 {
+          padding-top: 0.5rem !important;
+          padding-bottom: 0.5rem !important;
+        }
+
+        .pt-4,
+        .pt-6 {
+          padding-top: 0.5rem !important;
+        }
+
+        .pb-4,
+        .pb-6 {
+          padding-bottom: 0.5rem !important;
+        }
+      }
+    </style>
+  </head>
+  <body class="bg-slate-100 text-slate-900 antialiased">
+    <main
+      class="max-w-4xl mx-auto my-6 p-4 md:p-6 bg-white shadow-sm rounded-lg border border-slate-200 print:shadow-none print:border-0 print:m-0 print:p-0"
+    >
+      <!-- Cabeçalho / Hero -->
+        <header class="mb-4 text-center">
+            <h1 class="text-2xl md:text-3xl font-bold tracking-tight text-slate-900">
+            Francisco Cauan Victor da Silva Gonçalves
+            </h1>
+        
+            <p class="mt-1 text-sm md:text-base font-semibold text-slate-900">
+            DevSecOps Engineer
+            </p>
+        
+            <p class="mt-1 text-xs md:text-sm text-slate-700">
+            Fortaleza, Ceará, Brasil
+            </p>
+
+            <!-- Contato (centralizado, linha a linha) -->
+            <div class="space-y-1 text-xs md:text-sm text-slate-700">
+                <p><span class="font-semibold">Telefone:</span> (85) 98767-3952</p>
+                <p>
+                    <span class="font-semibold">E-mail:</span>
+                    <a
+                    href="mailto:cauanvictor0325@gmail.com"
+                    class="underline decoration-slate-300 hover:decoration-emerald-500"
+                    >cauanvictor0325@gmail.com</a
+                    >
+                </p>
+                <p>
+                    <span class="font-semibold">LinkedIn:</span>
+                    <a
+                    href="https://www.linkedin.com/in/francisco-cauan-victor"
+                    class="underline decoration-slate-300 hover:decoration-emerald-500 break-all"
+                    >linkedin.com/in/francisco-cauan-victor</a
+                    >
+                </p>
+                </div>
+        
+            <!-- Linha -->
+            <hr class="my-3 border-slate-200" />
+        </header>
+        
+
+      <!-- Resumo Profissional / Sobre -->
+      <section id="resumo" class="mb-4">
+        <h2
+          class="text-base md:text-lg font-semibold tracking-tight text-slate-800 border-b border-slate-200 pb-1"
+        >
+          Resumo Profissional
+        </h2>
+        <p class="mt-2 text-sm leading-relaxed text-slate-800">
+          Profissional brasileiro de 20 anos, natural de Fortaleza, atuando
+          como Software Engineer / Desenvolvedor Full Stack na Engaja
+          Comunicação. Experiência em desenvolvimento web (front-end e
+          back-end), automação, dados e infraestrutura em nuvem, atendendo
+          clientes do setor público e privado. Fui desenvolvedor na Digital
+          College Brasil, onde liderei o departamento de TI/Desenvolvimento e
+          atuei como professor em iniciativas parceiras. Formação técnica em
+          Redes de Computadores e graduação em andamento em Ciência da
+          Computação (Estácio) e Análise e Desenvolvimento de Sistemas
+          (UniFanor Wyden). Inglês avançado, atuação com Scrum/Kanban e foco em
+          soluções escaláveis, bem documentadas e orientadas a resultados.
+        </p>
+
+        <!-- ADIÇÃO (estilo Pedro Matos) sem alterar o texto existente -->
+        <ul class="mt-2 list-disc list-inside text-xs md:text-sm text-slate-800 space-y-1">
+          <li>
+            Atuação orientada a DevSecOps: automação, CI/CD, infraestrutura em nuvem e práticas de segurança aplicadas ao ciclo de vida do software.
+          </li>
+          <li>
+            Forte interface com dados (BI): construção de painéis, relatórios e indicadores para suporte à tomada de decisão.
+          </li>
+          <li>
+            Perfil proativo, comunicativo e focado em resultados, com experiência em liderança técnica e padronização de processos.
+          </li>
+        </ul>
+      </section>
+
+      <!-- REALIZAÇÕES NOTÁVEIS (novo, estilo Pedro Matos) -->
+      <section id="realizacoes-notaveis" class="mb-4">
+        <h2
+          class="text-base md:text-lg font-semibold tracking-tight text-slate-800 border-b border-slate-200 pb-1"
+        >
+          Realizações Notáveis
+        </h2>
+
+        <ul class="mt-2 list-disc list-inside text-xs md:text-sm text-slate-800 space-y-1">
+          <li>
+            Padronização de rotinas de CI/CD com GitHub Actions e uso de Docker, fortalecendo qualidade, repetibilidade de deploy e redução de falhas manuais.
+          </li>
+          <li>
+            Automação de processos operacionais (ex.: emissão de notas fiscais) com Python e ferramentas de automação, reduzindo trabalho repetitivo e aumentando confiabilidade.
+          </li>
+          <li>
+            Estruturação de relatórios e painéis de BI (Power BI, Looker Studio e DAX) para acompanhamento de métricas e decisões orientadas a dados.
+          </li>
+          <li>
+            Integrações com APIs (Pagar.me, Zoop e sistemas internos), garantindo rastreabilidade de dados e suporte a rotinas financeiras e relatórios.
+          </li>
+          <li>
+            Liderança técnica e suporte a times (Scrum/Kanban), com foco em documentação, processos e melhoria contínua.
+          </li>
+        </ul>
+      </section>
+
+      <!-- Principais Destaques / Palavras-chave para ATS -->
+      <section id="principais-destaques" class="mb-4">
+        <h2
+          class="text-base md:text-lg font-semibold tracking-tight text-slate-800 border-b border-slate-200 pb-1"
+        >
+          Principais Destaques
+        </h2>
+
+        <div
+          class="mt-2 grid gap-3 md:grid-cols-2 text-xs md:text-sm text-slate-800"
+        >
+          <div>
+            <h3 class="font-semibold">Linguagens de Programação</h3>
+            <ul class="mt-1 list-disc list-inside space-y-1">
+              <li>JavaScript, TypeScript</li>
+              <li>Java, PHP, Python, C#</li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="font-semibold">Desenvolvimento Web e Mobile</h3>
+            <ul class="mt-1 list-disc list-inside space-y-1">
+              <li>Front-end: ReactJS, VueJS, NextJS, Tailwind CSS</li>
+              <li>Back-end: Node.js, NestJS, Spring Boot, Laravel</li>
+              <li>Mobile: React Native, Kotlin, Android Studio, Swift</li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="font-semibold">Cloud, DevOps e Automação</h3>
+            <ul class="mt-1 list-disc list-inside space-y-1">
+              <li>Docker, AWS, Google Cloud</li>
+              <li>GitHub Actions (CI/CD)</li>
+              <li>Selenium, Playwright, Puppeteer</li>
+            </ul>
+
+            <!-- ADIÇÃO DevSecOps (sem mexer no que já tinha) -->
+            <ul class="mt-2 list-disc list-inside space-y-1">
+              <li>DevSecOps: qualidade + automação + segurança no pipeline</li>
+              <li>Boas práticas: revisão de código, gates de entrega e rastreabilidade</li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="font-semibold">Design, Dados e Comunicação</h3>
+            <ul class="mt-1 list-disc list-inside space-y-1">
+              <li>Social Media, Design Gráfico, UX/UI</li>
+              <li>Looker Studio, Power BI, DAX</li>
+              <li>Apps Script, Dash, Plotly, Streamlit</li>
+              <li>Inglês avançado (EF English Live)</li>
+            </ul>
+
+            <!-- ADIÇÃO BI -->
+            <ul class="mt-2 list-disc list-inside space-y-1">
+              <li>BI: indicadores, relatórios e automações de dados</li>
+              <li>Integração de fontes e consistência para análises</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- Serviços (resumido) -->
+      <section id="servicos" class="mb-4">
+        <h2
+          class="text-base md:text-lg font-semibold tracking-tight text-slate-800 border-b border-slate-200 pb-1"
+        >
+          Serviços e Atuação
+        </h2>
+        <p class="mt-2 text-sm text-slate-800">
+          Desenvolvimento web e mobile · Desenvolvimento back-end e front-end ·
+          Gestão de nuvem e infraestrutura · Gestão da informação e bancos de
+          dados · Desenvolvimento de SaaS e aplicativos na nuvem · Consultoria
+          de TI · Noções de cibersegurança aplicada a software · UX/UI ·
+          Liderança técnica e supervisão de equipes.
+        </p>
+
+        <!-- ADIÇÃO DevSecOps/BI (sem retirar nada do parágrafo) -->
+        <p class="mt-2 text-sm text-slate-800">
+          DevSecOps: automação de pipelines, boas práticas de segurança no SDLC,
+          padronização de deploy, observabilidade e suporte a compliance técnico ·
+          BI e Dados: construção de painéis, relatórios e indicadores (KPIs) para operação e negócio.
+        </p>
+      </section>
+
+      <!-- Projetos de Destaque / Cases -->
+      <section id="projetos" class="mb-4">
+        <h2
+          class="text-base md:text-lg font-semibold tracking-tight text-slate-800 border-b border-slate-200 pb-1"
+        >
+          Projetos e Cases em Destaque
+        </h2>
+
+        <!-- CONABOM 2025 -->
+        <article class="mt-2">
+          <h3 class="text-sm font-semibold text-slate-900">
+            CONABOM 2025 – Site oficial do congresso
+          </h3>
+          <p class="text-xs text-slate-600">
+            Cliente: CONABOM 2025 · Fortaleza, Ceará · Projeto de alta
+            visibilidade
+          </p>
+          <ul
+            class="mt-1 list-disc list-inside text-xs md:text-sm text-slate-800 space-y-1"
+          >
+            <li>
+              Desenvolvimento do site oficial com foco em performance, SEO e
+              experiência do usuário.
+            </li>
+            <li>
+              +6.000 visitantes em 28 dias, 53% de tráfego orgânico, até 90% de
+              taxa de engajamento.
+            </li>
+            <li>
+              +14.000 impressões e 5,6 mil cliques no Google para
+              palavras-chave do evento.
+            </li>
+          </ul>
+          <p class="mt-1 text-xs text-slate-600">
+            Tecnologias: JavaScript, TypeScript, React, Next.js, Tailwind CSS,
+            SEO técnico, Google Analytics, Google Search Console.
+          </p>
+
+          <!-- ADIÇÃO DevSecOps (sem mexer nos dados do case) -->
+          <ul class="mt-2 list-disc list-inside text-xs md:text-sm text-slate-800 space-y-1">
+            <li>
+              Boas práticas de entrega e sustentação: versionamento, padronização e foco em qualidade para evitar regressões.
+            </li>
+          </ul>
+        </article>
+
+        <!-- Geração Tech -->
+        <article class="mt-3">
+          <h3 class="text-sm font-semibold text-slate-900">
+            Geração Tech – Portal de inscrições e aulas
+          </h3>
+          <p class="text-xs text-slate-600">
+            Projeto educacional de tecnologia · Digital College Brasil
+          </p>
+          <ul
+            class="mt-1 list-disc list-inside text-xs md:text-sm text-slate-800 space-y-1"
+          >
+            <li>
+              Desenvolvimento de portal de inscrição e acompanhamento de
+              estudantes, com milhares de cadastrantes.
+            </li>
+            <li>
+              Atuação como professor em aulas presenciais e online de
+              programação e desenvolvimento.
+            </li>
+            <li>
+              Integração do fluxo de inscrições com sistemas internos da
+              instituição.
+            </li>
+          </ul>
+
+          <!-- ADIÇÃO BI/DevSecOps -->
+          <ul class="mt-2 list-disc list-inside text-xs md:text-sm text-slate-800 space-y-1">
+            <li>
+              Base orientada a dados: suporte a relatórios e consistência de informação para análise e operação.
+            </li>
+          </ul>
+        </article>
+
+        <!-- Supervisão de Estagiários -->
+        <article class="mt-3">
+          <h3 class="text-sm font-semibold text-slate-900">
+            Supervisão de estagiários – Governo do Estado do Ceará
+          </h3>
+          <p class="text-xs text-slate-600">
+            Supervisão de estagiários vinculados à Digital College Brasil
+          </p>
+          <ul
+            class="mt-1 list-disc list-inside text-xs md:text-sm text-slate-800 space-y-1"
+          >
+            <li>
+              Supervisão de aplicação prática de conhecimentos em tecnologia e
+              boas práticas de desenvolvimento.
+            </li>
+            <li>
+              Criação de ambiente de aprendizado leve, produtivo e orientado a
+              resultados.
+            </li>
+          </ul>
+        </article>
+      </section>
+
+      <!-- Experiência Profissional -->
+      <section id="experiencia-profissional" class="mb-4">
+        <h2
+          class="text-base md:text-lg font-semibold tracking-tight text-slate-800 border-b border-slate-200 pb-1"
+        >
+          Experiência Profissional
+        </h2>
+
+        <!-- Engaja Comunicação -->
+        <article class="mt-2">
+          <div
+            class="flex flex-col md:flex-row md:items-baseline md:justify-between gap-1"
+          >
+            <h3 class="text-sm font-semibold text-slate-900">
+              Assistente de Desenvolvimento de Sistemas · Engaja Comunicação
+            </h3>
+            <p class="text-xs text-slate-600">
+              Nov 2024 – Atual · Tempo integral · Híbrido
+            </p>
+          </div>
+          <p class="text-xs text-slate-600 italic">
+            Fortaleza, Ceará, Brasil · Contrato realocado da Digital College
+          </p>
+          <ul
+            class="mt-1 list-disc list-inside text-xs md:text-sm text-slate-800 space-y-1"
+          >
+            <li>
+              Líder do departamento de TI/Desenvolvimento (Digital College e
+              Engaja Comunicação) em metodologias ágeis (Scrum, Kanban).
+            </li>
+            <li>
+              Automação de emissão de notas fiscais com Python, Selenium,
+              NFE.io, Meu Dinheiro na Web.
+            </li>
+            <li>
+              Soluções personalizadas para Sponte, SZ Chat (Fortics),
+              Leadlovers, RD Station, Google Spaces, Moodle.
+            </li>
+            <li>
+              CI/CD com GitHub Actions e uso de Docker em ambientes escaláveis.
+            </li>
+            <li>
+              Dashboards e relatórios com Looker Studio, Apps Script, Power BI,
+              DAX, Python, Dash, Plotly, Streamlit.
+            </li>
+            <li>
+              Scripts para Active Directory, bots para Discord, Telegram,
+              Instagram, WhatsApp e manutenção de sites de clientes.
+            </li>
+          </ul>
+          <p class="mt-1 text-xs text-slate-600">
+            Ocupação: 3171-10 | Programador de Sistemas de Informação · Período:
+            a partir de 21/11/2024.
+          </p>
+
+          <!-- ADIÇÃO DevSecOps (sem mexer nos bullets existentes) -->
+          <ul class="mt-2 list-disc list-inside text-xs md:text-sm text-slate-800 space-y-1">
+            <li>
+              Adoção de práticas DevSecOps no dia a dia: automação, padronização de deploy e cuidado com segurança aplicada ao software (SDLC).
+            </li>
+          </ul>
+        </article>
+
+        <!-- Digital College - Programador Júnior -->
+        <article class="mt-3">
+          <div
+            class="flex flex-col md:flex-row md:items-baseline md:justify-between gap-1"
+          >
+            <h3 class="text-sm font-semibold text-slate-900">
+              Programador Júnior · Digital College Brasil
+            </h3>
+            <p class="text-xs text-slate-600">
+              Mai 2024 – Nov 2024 · Tempo integral · Presencial
+            </p>
+          </div>
+          <p class="text-xs text-slate-600 italic">
+            Fortaleza, Ceará, Brasil
+          </p>
+          <ul
+            class="mt-1 list-disc list-inside text-xs md:text-sm text-slate-800 space-y-1"
+          >
+            <li>
+              Liderança de TI/Desenvolvimento, integrações com APIs Pagar.me e
+              Zoop (boletos e relatórios).
+            </li>
+            <li>
+              Manutenção de soluções para Sponte, SZ Chat, Leadlovers, RD
+              Station, Google Spaces e Moodle.
+            </li>
+            <li>
+              Automação de tarefas (Selenium, Playwright, Puppeteer) e CI/CD
+              com GitHub Actions, Docker.
+            </li>
+            <li>
+              Criação de relatórios e painéis em Power BI, Looker Studio e
+              ferramentas de dados.
+            </li>
+            <li>
+              Desenvolvimento de bots de comunicação e atuação como professor em
+              iniciativas parceiras.
+            </li>
+          </ul>
+          <p class="mt-1 text-xs text-slate-600">
+            Ocupação: 3171-10 | Programador de Sistemas de Informação · Período:
+            02/05/2024 – 19/11/2024.
+          </p>
+
+          <!-- ADIÇÃO DevSecOps/BI -->
+          <ul class="mt-2 list-disc list-inside text-xs md:text-sm text-slate-800 space-y-1">
+            <li>
+              Fortalecimento de governança técnica: automações, CI/CD e relatórios (BI) para dar visibilidade e controle a processos e resultados.
+            </li>
+          </ul>
+        </article>
+
+        <!-- Estagiário de Suporte -->
+        <article class="mt-3">
+          <div
+            class="flex flex-col md:flex-row md:items-baseline md:justify-between gap-1"
+          >
+            <h3 class="text-sm font-semibold text-slate-900">
+              Estagiário de Suporte de Informática · Digital College Brasil
+            </h3>
+            <p class="text-xs text-slate-600">
+              Jan 2024 – Abr 2024 · Estágio
+            </p>
+          </div>
+          <p class="text-xs text-slate-600 italic">
+            Fortaleza, Ceará, Brasil
+          </p>
+          <ul
+            class="mt-1 list-disc list-inside text-xs md:text-sm text-slate-800 space-y-1"
+          >
+            <li>
+              Suporte técnico ao cliente interno e desenvolvimento de scripts
+              para automatização de tarefas.
+            </li>
+            <li>
+              Apoio à infraestrutura de TI e organização de redes e serviços.
+            </li>
+          </ul>
+        </article>
+      </section>
+
+      <!-- Formação Acadêmica -->
+      <section id="formacao" class="mb-4">
+        <h2
+          class="text-base md:text-lg font-semibold tracking-tight text-slate-800 border-b border-slate-200 pb-1"
+        >
+          Formação Acadêmica
+        </h2>
+
+        <article class="mt-2">
+          <div
+            class="flex flex-col md:flex-row md:items-baseline md:justify-between gap-1"
+          >
+            <h3 class="text-sm font-semibold text-slate-900">
+              Bacharelado em Ciência da Computação · Estácio
+            </h3>
+            <p class="text-xs text-slate-600">
+              Jan 2026 – Dez 2027 (em andamento)
+            </p>
+          </div>
+          <p class="text-xs text-slate-600 italic">
+            Fortaleza, Ceará · Graduação em Ciência da Computação
+          </p>
+        </article>
+
+        <article class="mt-2">
+          <div
+            class="flex flex-col md:flex-row md:items-baseline md:justify-between gap-1"
+          >
+            <h3 class="text-sm font-semibold text-slate-900">
+              Tecnólogo em Análise e Desenvolvimento de Sistemas · UniFanor
+              Wyden
+            </h3>
+            <p class="text-xs text-slate-600">
+              Jan 2024 – Jul 2026 (em andamento)
+            </p>
+          </div>
+          <p class="text-xs text-slate-600 italic">
+            Fortaleza, Ceará · Graduação tecnológica
+          </p>
+        </article>
+
+        <article class="mt-2">
+          <div
+            class="flex flex-col md:flex-row md:items-baseline md:justify-between gap-1"
+          >
+            <h3 class="text-sm font-semibold text-slate-900">
+              Ensino Médio Integrado ao Técnico em Redes de Computadores
+            </h3>
+            <p class="text-xs text-slate-600">
+              2021 – 2023 (concluído)
+            </p>
+          </div>
+          <p class="text-xs text-slate-600 italic">
+            EEEP Leonel de Moura Brizola
+          </p>
+        </article>
+      </section>
+
+      <!-- Cursos, Certificações e Formação Complementar (condensado) -->
+      <section id="cursos" class="mb-4">
+        <h2
+          class="text-base md:text-lg font-semibold tracking-tight text-slate-800 border-b border-slate-200 pb-1"
+        >
+          Cursos, Certificações e Formação Complementar
+        </h2>
+
+        <ul class="mt-2 list-disc list-inside text-xs md:text-sm text-slate-800 space-y-1">
+          <li>EF English Live – Inglês Avançado (certificação)</li>
+          <li>
+            Curso em Vídeo – HTML, CSS, JavaScript, PHP, MySQL e desenvolvimento
+            web (2021 – atual)
+          </li>
+          <li>
+            W3Schools – Estudos autodidatas em tecnologias web e back-end (2021
+            – atual)
+          </li>
+          <li>
+            Juventude Digital – Criação de sites com HTML, CSS, JavaScript,
+            XAMPP e Drupal (Nov 2021 – Dez 2021)
+          </li>
+        </ul>
+
+        <!-- ADIÇÃO DevSecOps/BI -->
+        <ul class="mt-2 list-disc list-inside text-xs md:text-sm text-slate-800 space-y-1">
+          <li>
+            Estudos contínuos em DevSecOps: automação de pipelines, boas práticas de segurança e confiabilidade de entrega.
+          </li>
+          <li>
+            Estudos contínuos em BI/Dados: KPIs, dashboards, integração de fontes e análises para operação e negócio.
+          </li>
+        </ul>
+      </section>
+
+      <!-- Competências Técnicas Detalhadas (para ATS) -->
+      <section id="competencias-tecnicas" class="mb-4">
+        <h2
+          class="text-base md:text-lg font-semibold tracking-tight text-slate-800 border-b border-slate-200 pb-1"
+        >
+          Competências Técnicas Detalhadas
+        </h2>
+
+        <div class="mt-2 grid gap-3 md:grid-cols-2 text-xs md:text-sm">
+          <div>
+            <h3 class="font-semibold text-slate-900">Back-end</h3>
+            <ul class="mt-1 list-disc list-inside text-slate-800 space-y-1">
+              <li>Node.js, NestJS, Java (Spring Boot), PHP (Laravel)</li>
+              <li>APIs REST, autenticação, integração com serviços externos</li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="font-semibold text-slate-900">Front-end</h3>
+            <ul class="mt-1 list-disc list-inside text-slate-800 space-y-1">
+              <li>ReactJS, VueJS, NextJS</li>
+              <li>HTML5, CSS3, Tailwind CSS, UX/UI</li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="font-semibold text-slate-900">Mobile</h3>
+            <ul class="mt-1 list-disc list-inside text-slate-800 space-y-1">
+              <li>React Native</li>
+              <li>Kotlin, Android Studio, Swift (noções)</li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="font-semibold text-slate-900">Bancos de Dados</h3>
+            <ul class="mt-1 list-disc list-inside text-slate-800 space-y-1">
+              <li>MySQL, MariaDB, PostgreSQL</li>
+              <li>Modelagem de dados relacional, SQL</li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="font-semibold text-slate-900">Cloud e DevOps</h3>
+            <ul class="mt-1 list-disc list-inside text-slate-800 space-y-1">
+              <li>AWS, Google Cloud</li>
+              <li>Docker, Git, GitHub, GitHub Actions (CI/CD)</li>
+            </ul>
+
+            <!-- ADIÇÃO DevSecOps -->
+            <ul class="mt-2 list-disc list-inside text-slate-800 space-y-1">
+              <li>DevSecOps: automação de entrega, padronização e segurança no SDLC</li>
+              <li>Boas práticas: revisão, qualidade, rastreabilidade e governança técnica</li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="font-semibold text-slate-900">
+              Dados, Automação e Ferramentas
+            </h3>
+            <ul class="mt-1 list-disc list-inside text-slate-800 space-y-1">
+              <li>Looker Studio, Power BI, DAX</li>
+              <li>Apps Script, Python, Dash, Plotly, Streamlit</li>
+              <li>Selenium, Playwright, Puppeteer</li>
+              <li>Active Directory, ferramentas de colaboração e CRM</li>
+            </ul>
+
+            <!-- ADIÇÃO BI -->
+            <ul class="mt-2 list-disc list-inside text-slate-800 space-y-1">
+              <li>BI: KPIs, dashboards e relatórios operacionais</li>
+              <li>Automação de coleta e organização de dados</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- Idiomas -->
+      <section id="idiomas" class="mb-3">
+        <h2
+          class="text-base md:text-lg font-semibold tracking-tight text-slate-800 border-b border-slate-200 pb-1"
+        >
+          Idiomas
+        </h2>
+
+        <ul class="mt-2 list-disc list-inside text-xs md:text-sm text-slate-800 space-y-1">
+          <li>Português: Nativo</li>
+          <li>Inglês: Avançado (leitura, escrita e comunicação técnica)</li>
+          <li>Espanhol: Intermediário</li>
+        </ul>
+      </section>
+
+      <!-- Outras Competências -->
+      <section id="outras-competencias" class="mb-1">
+        <h2
+          class="text-base md:text-lg font-semibold tracking-tight text-slate-800 border-b border-slate-200 pb-1"
+        >
+          Outras Competências
+        </h2>
+
+        <ul class="mt-2 list-disc list-inside text-xs md:text-sm text-slate-800 space-y-1">
+          <li>Proatividade, aprendizado rápido e foco em resultados</li>
+          <li>Organização, atenção a detalhes e comunicação clara</li>
+          <li>Edição básica de foto e vídeo</li>
+          <li>
+            Pacote Office (Word, Excel, PowerPoint) para documentação e
+            apresentações
+          </li>
+          <li>Liderança técnica, trabalho em equipe e supervisão de estagiários</li>
+        </ul>
+
+        <!-- ADIÇÃO (estilo Pedro Matos) -->
+        <ul class="mt-2 list-disc list-inside text-xs md:text-sm text-slate-800 space-y-1">
+          <li>
+            Mentalidade DevSecOps: melhoria contínua, automação, prevenção de falhas e segurança aplicada ao ciclo de desenvolvimento.
+          </li>
+        </ul>
+      </section>
+    </main>
+  </body>
+</html>
