@@ -3,11 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <title>
-      Francisco Cauan Victor da Silva Gonçalves - DevSecOps
+      Francisco Cauan Victor da Silva Gonçalves - Engenheiro de Dados
     </title>
     <meta
       name="description"
-      content="Currículo de Francisco Cauan Victor da Silva Gonçalves."
+      content="Currículo de Francisco Cauan Victor da Silva Gonçalves para a vaga de Engenheiro de Dados."
     />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!-- Tailwind CSS CDN -->
@@ -72,6 +72,7 @@
       }
     </style>
   </head>
+
   <body class="bg-slate-100 text-slate-900 antialiased">
     <main
       class="max-w-4xl mx-auto my-6 p-4 md:p-6 bg-white shadow-sm rounded-lg border border-slate-200 print:shadow-none print:border-0 print:m-0 print:p-0"
@@ -82,7 +83,7 @@
           Francisco Cauan Victor da Silva Gonçalves
         </h1>
         <p class="mt-1 text-sm md:text-base font-semibold text-slate-900">
-          DevSecOps Engineer
+          Engenheiro de Dados · ETL · Apache Airflow · Infraestrutura
         </p>
         <p class="mt-1 text-xs md:text-sm text-slate-700">Fortaleza, Ceará, Brasil</p>
         <div class="mt-1 space-y-0.5 text-xs md:text-sm text-slate-700">
@@ -105,49 +106,27 @@
           Resumo Profissional
         </h2>
         <p class="mt-2 text-sm leading-relaxed text-slate-800">
-          Desenvolvedor de 20 anos, Fortaleza/CE, com atuação orientada a DevSecOps: automação, CI/CD,
-          infraestrutura em nuvem e práticas de segurança no ciclo de vida do software. Mais recentemente atuou
-          como Desenvolvedor Pleno na AESP/CETIC (refatoração de sistemas do Governo do Ceará) e antes na Engaja
-          Comunicação/Digital College Brasil, onde liderou o time de TI e construiu pipelines de ETL com Apache
-          Airflow. ADS concluído (UniFanor Wyden); bacharelado em Ciência da Computação em andamento (Estácio).
+          Desenvolvedor de 20 anos, Fortaleza/CE. Mais recentemente atuou como Desenvolvedor Pleno na AESP/CETIC
+          (refatoração de sistemas do Governo do Ceará, forte em PostgreSQL, Docker e CI/CD) e antes na Engaja
+          Comunicação/Digital College Brasil, onde construiu pipelines de <span class="font-semibold">ETL com
+          Apache Airflow</span> (faturamento do cliente Animale Petshop), com logging estruturado e testes
+          automatizados. ADS concluído (UniFanor Wyden); bacharelado em Ciência da Computação em andamento
+          (Estácio).
         </p>
       </section>
 
-      <!-- Principais Destaques / ATS -->
-      <section id="destaques" class="mb-3">
+      <!-- Fit com a Vaga -->
+      <section id="fit-vaga" class="mb-3">
         <h2 class="text-base md:text-lg font-semibold tracking-tight text-slate-800 border-b border-slate-200 pb-1">
-          Principais Destaques (ATS)
+          Fit com a Vaga (Engenharia de Dados)
         </h2>
-        <div class="mt-2 grid gap-2 md:grid-cols-2 text-xs md:text-sm text-slate-800">
-          <div>
-            <h3 class="font-semibold">DevSecOps & CI/CD</h3>
-            <ul class="mt-1 list-disc list-inside space-y-0.5">
-              <li>GitHub Actions, Jenkins, GitOps/ArgoCD</li>
-              <li>Boas práticas de segurança no SDLC, revisão e rastreabilidade</li>
-            </ul>
-          </div>
-          <div>
-            <h3 class="font-semibold">Cloud & Infraestrutura</h3>
-            <ul class="mt-1 list-disc list-inside space-y-0.5">
-              <li>Docker, Kubernetes, Terraform, Helm, Istio</li>
-              <li>AWS, Google Cloud, Prometheus (monitoramento)</li>
-            </ul>
-          </div>
-          <div>
-            <h3 class="font-semibold">Linguagens & Back-end</h3>
-            <ul class="mt-1 list-disc list-inside space-y-0.5">
-              <li>JavaScript/TypeScript, Java, PHP, Python, Golang</li>
-              <li>Node.js, NestJS, APIs REST</li>
-            </ul>
-          </div>
-          <div>
-            <h3 class="font-semibold">Dados & Automação</h3>
-            <ul class="mt-1 list-disc list-inside space-y-0.5">
-              <li>Apache Airflow, ETL, PostgreSQL</li>
-              <li>Power BI, Looker Studio, DAX</li>
-            </ul>
-          </div>
-        </div>
+        <ul class="mt-2 list-disc list-inside text-xs md:text-sm text-slate-800 space-y-0.5">
+          <li><span class="font-semibold">Infra/servidores:</span> Docker (dev/homolog/produção), AWS, Google Cloud.</li>
+          <li><span class="font-semibold">Airflow:</span> DAGs de ETL em produção (Animale Petshop), agendamento e monitoramento de tarefas.</li>
+          <li><span class="font-semibold">Banco de dados:</span> modelagem e otimização em PostgreSQL/MySQL, scripts de schema.</li>
+          <li><span class="font-semibold">ETL/Logs:</span> pipelines Python com hashing/idempotência e logging estruturado (log_etl).</li>
+          <li><span class="font-semibold">Monitoramento/alertas:</span> acompanhamento de status via Airflow e CI/CD (GitHub Actions).</li>
+        </ul>
       </section>
 
       <!-- Projetos de Destaque -->
@@ -160,23 +139,22 @@
           <h3 class="text-sm font-semibold text-slate-900">ETL de Faturamento – Animale Petshop</h3>
           <p class="text-xs text-slate-600">Cliente atendido via Digital College Brasil / Engaja Comunicação</p>
           <ul class="mt-1 list-disc list-inside text-xs md:text-sm text-slate-800 space-y-0.5">
-            <li>Pipeline Python orquestrado com Apache Airflow; hashing para idempotência e logging estruturado (log_etl).</li>
-            <li>Testes automatizados (pytest) e staging em PostgreSQL, com foco em confiabilidade e rastreabilidade.</li>
+            <li>Pipeline Airflow (DAG dedicada) para extração/consolidação de faturamento do sistema OnePet.</li>
+            <li>Hashing para idempotência, logging estruturado (log_etl), staging em PostgreSQL e testes automatizados (pytest).</li>
           </ul>
         </article>
 
         <article class="mt-2">
           <h3 class="text-sm font-semibold text-slate-900">Sistema de Matrículas – AESP / Governo do Ceará</h3>
           <ul class="mt-1 list-disc list-inside text-xs md:text-sm text-slate-800 space-y-0.5">
-            <li>Refatoração de sistema legado (PHP/CodeIgniter, PostgreSQL) com boas práticas de segurança no SDLC.</li>
-            <li>Média de 1.500 a 2.000 inscrições por curso, com picos pontuais acima disso.</li>
+            <li>Refatoração de sistema legado; otimização de consultas PostgreSQL para média de 1.500–2.000 inscrições/curso.</li>
           </ul>
         </article>
 
         <article class="mt-2">
           <h3 class="text-sm font-semibold text-slate-900">Reconhecimento de Peças – Newlight (em desenvolvimento)</h3>
           <ul class="mt-1 list-disc list-inside text-xs md:text-sm text-slate-800 space-y-0.5">
-            <li>Sistema Python de visão computacional para contagem de peças, integrado a ERP (Odoo) via API — produto comercial.</li>
+            <li>Sistema Python que contabiliza peças em linha de produção e envia dados para ERP (Odoo) via API.</li>
           </ul>
         </article>
       </section>
@@ -194,8 +172,7 @@
           </div>
           <p class="text-xs text-slate-600 italic">CETIC · Projeto de refatoração de sistemas legados</p>
           <ul class="mt-1 list-disc list-inside text-xs md:text-sm text-slate-800 space-y-0.5">
-            <li>Refatoração de sistemas críticos (SGA, Matrículas, SISCOVE, SGP, GCONT) em PHP/CodeIgniter (MVC).</li>
-            <li>Segurança: validação de dados, controle de acesso, mitigação de vulnerabilidades; Docker, CI/CD, Git/SVN.</li>
+            <li>Otimização de consultas e desempenho em PostgreSQL; Docker (dev/homolog/produção); CI/CD, Git/SVN.</li>
           </ul>
         </article>
 
@@ -206,8 +183,8 @@
           </div>
           <p class="text-xs text-slate-600 italic">Contrato realocado da Digital College Brasil</p>
           <ul class="mt-1 list-disc list-inside text-xs md:text-sm text-slate-800 space-y-0.5">
-            <li>Líder de TI/Desenvolvimento; adoção de práticas DevSecOps no dia a dia (automação, padronização de deploy).</li>
-            <li>ETL com Apache Airflow (Animale Petshop); CI/CD com GitHub Actions e Docker (AWS/GCP).</li>
+            <li>Orquestração de ETL com Apache Airflow (Animale Petshop), hashing para idempotência e logging estruturado.</li>
+            <li>Rotinas de banco de dados/SQL para staging; CI/CD (GitHub Actions), Docker em ambientes escaláveis (AWS/GCP).</li>
           </ul>
         </article>
 
@@ -217,7 +194,7 @@
             <p class="text-xs text-slate-600">Jan 2024 – Nov 2024</p>
           </div>
           <ul class="mt-1 list-disc list-inside text-xs md:text-sm text-slate-800 space-y-0.5">
-            <li>Automação de tarefas e CI/CD (GitHub Actions, Docker); integrações com Pagar.me e Zoop.</li>
+            <li>Integrações com APIs (Pagar.me, Zoop); automação de tarefas e CI/CD com Docker.</li>
           </ul>
         </article>
       </section>
@@ -241,12 +218,35 @@
         </h2>
         <ul class="mt-2 list-disc list-inside text-xs md:text-sm text-slate-800 space-y-0.5">
           <li>Oracle Cloud Infrastructure 2025 Certified AI Foundations Associate – Oracle (Set/2025 – Set/2027)</li>
-          <li>FortalSec 2025 – FortalSec (Fev/2025) · Cibersegurança</li>
-          <li>KodeKloud (2024–2025): Prometheus (PCA), GitOps/ArgoCD, Istio, Terraform, Kubernetes, Helm, Jenkins, Golang</li>
-          <li>Palo Alto Networks: Fundamentals of Cloud Security, Introduction to Cybersecurity (Abr/2023)</li>
+          <li>KodeKloud (2024–2025): Terraform, Kubernetes, Docker, Prometheus (PCA), GitOps/ArgoCD, Jenkins</li>
+          <li>Cloud Plataform – Descomplica Faculdade Digital (Set/2025)</li>
           <li>AWS Academy Cloud Foundations – AWS (Mar/2023)</li>
+          <li>Academy Accreditation – Generative AI Fundamentals – Databricks (Fev/2025 – Fev/2027)</li>
           <li>Curso de DevOps e Quality Assurance – Universidade Estadual do Ceará (Set/2024)</li>
         </ul>
+      </section>
+
+      <!-- Competências Técnicas -->
+      <section id="competencias-tecnicas" class="mb-3">
+        <h2 class="text-base md:text-lg font-semibold tracking-tight text-slate-800 border-b border-slate-200 pb-1">
+          Competências Técnicas
+        </h2>
+        <div class="mt-2 grid gap-2 md:grid-cols-2 text-xs md:text-sm text-slate-800">
+          <div>
+            <h3 class="font-semibold">Engenharia de Dados / ETL</h3>
+            <ul class="mt-1 list-disc list-inside space-y-0.5">
+              <li>Apache Airflow, Python, hashing/idempotência</li>
+              <li>Logging estruturado, testes automatizados (pytest)</li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="font-semibold">Banco de Dados & Infra</h3>
+            <ul class="mt-1 list-disc list-inside space-y-0.5">
+              <li>PostgreSQL, MySQL, MariaDB, SQL</li>
+              <li>Docker, AWS, Google Cloud, Git/SVN, CI/CD</li>
+            </ul>
+          </div>
+        </div>
       </section>
 
       <!-- Idiomas e Outras Competências -->
@@ -255,9 +255,8 @@
           Idiomas e Outras Competências
         </h2>
         <p class="mt-2 text-xs md:text-sm text-slate-800">
-          Português: Nativo · Inglês: Avançado (EF English Live) · Espanhol: Intermediário. Mentalidade DevSecOps:
-          melhoria contínua, automação, prevenção de falhas e segurança aplicada ao ciclo de desenvolvimento;
-          liderança técnica e supervisão de estagiários.
+          Português: Nativo · Inglês: Avançado (EF English Live) · Espanhol: Intermediário. Documentação técnica,
+          padronização de processos e liderança técnica.
         </p>
       </section>
     </main>
